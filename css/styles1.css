@@ -1,0 +1,145 @@
+body {
+  font-family: Arial, sans-serif;
+  padding-top: 60px;
+  background-image: url('../assets/imgs/wp.jpg'); 
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+header {
+  background: linear-gradient(135deg, #3f75ebc2, #0d0825cc); /* Gradiente roxo */
+  color: #fff; /* Cor branca para o texto */
+  padding: 20px 20px; /* Espaçamento interno */
+  text-align: center; /* Centraliza o texto */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 14px 10px rgba(0, 0, 0, 0.3); /* Sombra para profundidade */
+  margin: 10px auto; /* Margens externas */
+  max-width: 95%; /* Largura máxima da faixa */
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #fdfdfda2;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../imgs/wp.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  filter: blur(8px); /* Valor de desfoque */
+  z-index: -1; /* Coloca a imagem atrás do conteúdo */
+}
+
+h2, h3 {
+  color: #1291f8; /* Roxo escuro */
+  font-size: 22px;
+}
+
+p {
+  line-height: 1.6;
+  color: #333; /* Cinza escuro para contraste */
+  font-size: 18px;
+}
+
+header h1 img {
+  width: 400px; /* Define a largura fixa da imagem */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+.intro {
+  padding: 20px;
+  text-align: center;
+}
+
+.sections {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section {
+  width: 48%;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #333; /* Preto */
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.text-white {
+  color: #fffeff;
+}
+
+.footer-link {
+  color: rgb(253, 250, 250);
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.digital-art {
+  background-color: #800080; /* Cor de fundo da faixa Digital Art */
+  color: #ffffff; /* Cor do texto */
+  padding: 20px; /* Espaçamento interno */
+  text-align: center; /* Alinhamento do texto */
+  font-size: 24px; /* Tamanho da fonte */
+  border-radius: 10px; /* Bordas arredondadas */
+  margin-bottom: 20px; /* Espaçamento abaixo da faixa */
+}
+
+/*--------------barras de navegaçao------------------------------ */
+.nav-link {
+  display: inline-block;
+  padding: 10px 15px; /* Espaçamento interno dos links */
+  text-align: center;
+  text-decoration: none;
+  color: #007bff; /* Cor dos links */
+  background-color: #f7f7f793; /* Cor de fundo dos links */
+  border-radius: 10px; /* Bordas arredondadas dos links */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra dos links */
+  transition: transform 0.3s, box-shadow 0.3s; /* Transições suaves */
+}
+
+.nav-link:hover {
+  background-color: #e9ecef; /* Cor de fundo dos links ao passar o mouse */
+  color: #0056b3; /* Cor dos links ao passar o mouse */
+  transform: translateY(-5px); /* Move o link para cima ao passar o mouse */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta a sombra ao passar o mouse */
+  text-decoration: none;
+}
+/*----------------------------------------------------------------- */

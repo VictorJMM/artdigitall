@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, sans-serif;
+  padding-top: 60px;
+  background-image: url('../assets/imgs/wp.jpg'); 
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+  position: relative;
+}
+
+header {
+  background: linear-gradient(135deg, #3f75ebc2, #0d0825cc); /* Gradiente roxo */
+  color: #fff; /* Cor branca para o texto */
+  padding: 20px 20px; /* Espaçamento interno */
+  text-align: center; /* Centraliza o texto */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 14px 10px rgba(0, 0, 0, 0.3); /* Sombra para profundidade */
+  margin: 10px auto; /* Margens externas */
+  max-width: 95%; /* Largura máxima da faixa */
+}
+
+header h1 img {
+  width: 400px; /* Define a largura fixa da imagem */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #3f75eb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+button:hover {
+  background-color: #2d59a1;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 10px 15px; /* Espaçamento interno dos links */
+  text-align: center;
+  text-decoration: none;
+  color: #007bff; /* Cor dos links */
+  background-color: #f7f7f793; /* Cor de fundo dos links */
+  border-radius: 10px; /* Bordas arredondadas dos links */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra dos links */
+  transition: transform 0.3s, box-shadow 0.3s; /* Transições suaves */
+}
+
+.nav-link:hover {
+  background-color: #e9ecef; /* Cor de fundo dos links ao passar o mouse */
+  color: #0056b3; /* Cor dos links ao passar o mouse */
+  transform: translateY(-5px); /* Move o link para cima ao passar o mouse */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta a sombra ao passar o mouse */
+  text-decoration: none;
+}
+
+.main-content {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #b50cf7, #084bda);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.container {
+  text-align: center;
+}
+
+.image-container {
+  margin-top: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.footer {
+  background-color: #333; /* Preto */
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.text-white {
+  color: #fffeff;
+}
+
+.footer-link {
+  color: rgb(253, 250, 250);
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}

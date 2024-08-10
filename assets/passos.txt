@@ -1,0 +1,23 @@
+Pintura
+
+    Leonardo da Vinci: Renomado pintor do Renascimento, conhecido por "Mona Lisa" e "A Última Ceia".
+    Vincent van Gogh: Pós-impressionista holandês famoso por "A Noite Estrelada" e "Girassóis".
+    
+
+Cinema
+
+    Steven Spielberg: Diretor de filmes icônicos como "Jurassic Park", "E.T. - O Extraterrestre" e "A Lista de Schindler".
+    Alfred Hitchcock: Conhecido como o "Mestre do Suspense", dirigiu clássicos como "Psicose", "Janela Indiscreta" e "Um Corpo que Cai".
+    Akira Kurosawa: Diretor japonês influente, conhecido por filmes como "Os Sete Samurais", "Rashomon" e "Sonhos".
+
+Literatura
+
+    William Shakespeare: Dramaturgo e poeta inglês, autor de clássicos como "Hamlet", "Romeu e Julieta" e "Macbeth".
+    Jane Austen: Escritora inglesa famosa por romances como "Orgulho e Preconceito", "Razão e Sensibilidade" e "Emma".
+    Gabriel García Márquez: Autor colombiano e Nobel de Literatura, conhecido por "Cem Anos de Solidão" e "O Amor nos Tempos do Cólera".
+
+Arte Digital
+
+    Beeple (Mike Winkelmann): Artista digital conhecido por suas obras em 3D e pela venda recorde de um NFT, "Everydays: The First 5000 Days".
+    Pak: Artista anônimo pioneiro em NFTs, famoso por suas obras minimalistas e inovadoras como "The Fungible".
+    Refik Anadol: Artista de mídia que cria instalações imersivas e obras de arte generativas, combinando arte, ciência e tecnologia.

@@ -1,0 +1,206 @@
+/* Estilos globais */
+body {
+  font-family: Arial, sans-serif;
+  padding-top: 60px;
+  background-image: url('../assets/imgs/wp.jpg'); 
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background: linear-gradient(135deg, #3f75ebc2, #0d0825cc); /* Gradiente roxo */
+  color: #fff; /* Cor branca para o texto */
+  padding: 20px 20px; /* Espaçamento interno */
+  text-align: center; /* Centraliza o texto */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 14px 10px rgba(0, 0, 0, 0.3); /* Sombra para profundidade */
+  margin: 10px auto; /* Margens externas */
+  max-width: 95%; /* Largura máxima da faixa */
+}
+
+header h1 img {
+  width: 400px; /* Define a largura fixa da imagem */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+h2, h3 {
+  color: #1291f8; /* Roxo escuro */
+  font-size: 22px;
+}
+
+/* Estilos do cabeçalho */
+.header {
+  background: linear-gradient(135deg, #3f75ebc2, #0d0825cc); /* Gradiente roxo */
+  color: #fff; /* Cor branca para o texto */
+  padding: 20px 20px; /* Espaçamento interno */
+  text-align: center; /* Centraliza o texto */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 14px 10px rgba(0, 0, 0, 0.3); /* Sombra para profundidade */
+  margin: 10px auto; /* Margens externas */
+  max-width: 95%; /* Largura máxima da faixa */
+}
+
+.header h1 img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Navegação */
+.nav {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: transparent; /* Remove a cor de fundo */
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 15px 20px; /* Aumenta o espaçamento interno */
+  margin: 0 15px; /* Adiciona espaçamento entre os links */
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #f7f7f793; /* Cor de fundo dos quadradinhos */
+  border-radius: 10px; /* Bordas arredondadas dos quadradinhos */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para os quadradinhos */
+  font-size: 18px; /* Aumenta o tamanho da fonte */
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #5a0b9c; /* Cor ao passar o mouse */
+  color: #fff;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Aumenta a sombra ao passar o mouse */
+}
+
+/* Container de Créditos */
+.creditos-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center; /* Centraliza os cards horizontalmente */
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  opacity: 90%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animação para o efeito de hover */
+  width: 300px; /* Largura do card */
+  margin: 0 10px; /* Espaçamento entre os cards */
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Move o card para cima ao passar o mouse */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Aumenta a sombra ao passar o mouse */
+}
+
+.card img {
+  max-width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.card li {
+  margin: 5px 0;
+}
+
+.card p {
+  margin-top: 10px;
+  color: #050505;
+}
+
+/* Card protagonista */
+.protagonista {
+  background: linear-gradient(135deg, #b50cf7, #084bda); /* Gradiente para destacar */
+  border: 2px solid #d83cf7; /* Borda para destacar */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais destacada */
+  transform: scale(1.09); /* Levemente maior para destaque */
+}
+
+.protagonista p {
+  color: #ffffff;
+}
+
+.protagonista ul {
+  color: #ffffff;
+}
+
+.protagonista li {
+  color: #ffffff;
+}
+
+
+/* Rodapé */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer .footer-link {
+  color: #fff;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.footer .footer-link:hover {
+  text-decoration: underline;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.creditos-sites {
+  padding: 20px;
+  background-color: #504e4ea4;
+  margin: 20px auto;
+  max-width: 95%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.creditos-sites h2 {
+  color: #8940e9; /* Cor do título */
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.creditos-sites ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.creditos-sites li {
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.creditos-sites a {
+  color: #b90ddb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.creditos-sites a:hover {
+  text-decoration: underline;
+}
