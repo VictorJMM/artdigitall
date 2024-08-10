@@ -204,3 +204,7 @@ h2, h3 {
 .creditos-sites a:hover {
   text-decoration: underline;
 }
+
+.creditos-sites p {
+  color: #ffffff;
+}
